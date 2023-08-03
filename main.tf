@@ -12,8 +12,8 @@ terraform {
 
 
 # A terraform file creating an S3 bucket in my AWS account
-resource "aws_s3_bucket" "jenkinsAssignment" {
-  bucket = "jenkinsAssignment"  
+resource "aws_s3_bucket" "jenkinsBucket" {
+  bucket = "jenkinsBucket"  
   acl    = "private"  
 
   tags = {
